@@ -1,0 +1,12 @@
+{
+	"name": "require-ejs",
+	"version": "0.1.0",
+	"author": "Alexis Abril",
+	"description": "RequireJS plugin to compile EJS and Mustach views",
+	"dependencies": {
+		"can-compile": "0.2.0"
+	},
+	"devDependencies": {
+		"grunt-contrib-requirejs": "0.3.3"
+	}
+}
