@@ -4,8 +4,8 @@ module.exports = function(grunt) {
 		requirejs: {
 			compile: {
 				options: {
-					name: 'test/app',
-					baseUrl: './',
+					name: 'app',
+					baseUrl: 'test',
 					mainConfigFile: 'test/app.js',
 					out: 'test/actual.js'
 				}

@@ -6,11 +6,9 @@ require.config({
 	}
 });
 
-require(['can/util/library', 'can/view/ejs', 'ejs!init'], function() {
+require(['can/util/library', 'can/view/ejs', 'ejs!init'], function(can, EJS, init) {
 
-	var div = $('<div>');
-	div.html(can.view('init.ejs', {}));
-
-	$('body').append(div);
+	var html = init({ foo: 'bar' });
+	$('div').html(html);
 
 });
