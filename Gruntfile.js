@@ -7,7 +7,8 @@ module.exports = function(grunt) {
 					name: 'app',
 					baseUrl: 'test',
 					mainConfigFile: 'test/app.js',
-					out: 'test/app.min.js'
+					out: 'test/app.min.js',
+					optimize: 'none'
 				}
 			}
 		}
